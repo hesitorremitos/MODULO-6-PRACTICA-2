@@ -10,6 +10,15 @@ backend/productos/db.json las caracteristicas de los productos
 
 #TAREAS A REALIZAR: <br>
 
+
+## Paquetes
+- Para el estilizado se usa bootstrap
+
+
+## Variables de entorno
+- Para cada cambio realizado en las variables del archivo `env` se debe reiniciar el servidor para ver los cambios
+
+
 ## Project setup
 ```
 npm install
@@ -21,5 +30,5 @@ npm run serve
 ```
 ## levartar API  desde la carpeta backend/productos:
 ```
-json-server --watch db.json port=3000
+npm run backend
 ```
